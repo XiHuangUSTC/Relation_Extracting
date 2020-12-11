@@ -1,0 +1,4 @@
+﻿  RelationExtracting.cpp
+c:\users\hx68\documents\hx\university\curriculums\大三上\web信息处理与应用\实验2\relation_extracting\relation_extracting\relationextracting.cpp(203): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hx68\documents\hx\university\curriculums\大三上\web信息处理与应用\实验2\relation_extracting\relation_extracting\relationextracting.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+  Relation_Extracting.vcxproj -> C:\Users\hx68\Documents\hx\University\Curriculums\大三上\Web信息处理与应用\实验2\Relation_Extracting\Debug\Relation_Extracting.exe
