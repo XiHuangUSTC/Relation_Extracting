@@ -387,19 +387,20 @@ int main() {
 	f_DoubleConsonant_ing_List.close();
 	f_Special_Word_List.close();
 
-	auto datasets = generate_test_datasets("..", 4);
-	for (int feature_num = 20; feature_num <= 50; feature_num += 5)
-	{
-		double accuracy = 0;
-		for (auto &dataset : datasets)
-		{
-			naive_bayes(dataset, feature_num);
-			accuracy += calc_accuracy(dataset);
-		}
-		cout << feature_num << '\t' << accuracy / datasets.size() << endl;
-	}
+	//auto datasets = generate_test_datasets("..", 16);
+	//for (int feature_num = 20; feature_num <= 1000; feature_num += 20)
+	//{
+	//	double accuracy = 0;
+	//	for (auto &dataset : datasets)
+	//	{
+	//		naive_bayes(dataset, feature_num);
+	//		accuracy += calc_accuracy(dataset);
+	//	}
+	//	cout << accuracy / datasets.size() << ",";
+	//	//cout << feature_num << '\t' << accuracy / datasets.size() << endl;
+	//}
 
-	//naive_bayes("..", 30);
+	naive_bayes("..", 600);
 
 	//ifstream f_Train(FILEPATH_TRAIN);
 	//ifstream f_Test(FILEPATH_TEST);
